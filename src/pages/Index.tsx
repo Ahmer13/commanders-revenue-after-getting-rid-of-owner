@@ -3,6 +3,8 @@ import { MetricCards } from "@/components/dashboard/MetricCards";
 import { TicketPriceComparison } from "@/components/dashboard/TicketPriceComparison";
 import { RevenueAnalysis } from "@/components/dashboard/RevenueAnalysis";
 import { FanEngagement } from "@/components/dashboard/FanEngagement";
+import { TeamPerformance } from "@/components/dashboard/TeamPerformance";
+import { ProjectionsAnalysis } from "@/components/dashboard/ProjectionsAnalysis";
 import { StrategicInsights } from "@/components/dashboard/StrategicInsights";
 
 const Index = () => {
@@ -13,6 +15,8 @@ const Index = () => {
       <main className="container mx-auto px-4 py-8 space-y-8">
         <MetricCards />
         
+        <TeamPerformance />
+        
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <TicketPriceComparison />
           <RevenueAnalysis />
@@ -22,6 +26,8 @@ const Index = () => {
           <FanEngagement />
           <StrategicInsights />
         </div>
+        
+        <ProjectionsAnalysis />
       </main>
     </div>
   );

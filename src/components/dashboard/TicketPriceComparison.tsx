@@ -5,27 +5,32 @@ const ticketData = [
   {
     category: "Lower Bowl",
     snyder2023: 180,
-    newOwnership2024: 245,
+    newOwnership2024: 285,
+    projected2025: 275,
   },
   {
     category: "Upper Bowl", 
     snyder2023: 75,
-    newOwnership2024: 95,
+    newOwnership2024: 125,
+    projected2025: 115,
   },
   {
     category: "Club Level",
     snyder2023: 220,
-    newOwnership2024: 320,
+    newOwnership2024: 385,
+    projected2025: 365,
   },
   {
     category: "Premium Suites",
     snyder2023: 450,
-    newOwnership2024: 650,
+    newOwnership2024: 795,
+    projected2025: 750,
   },
   {
     category: "Standing Room",
     snyder2023: 45,
-    newOwnership2024: 65,
+    newOwnership2024: 85,
+    projected2025: 80,
   }
 ];
 
@@ -35,7 +40,7 @@ export const TicketPriceComparison = () => {
       <CardHeader>
         <CardTitle className="text-foreground">Ticket Price Analysis</CardTitle>
         <CardDescription>
-          Comparison of average ticket prices: Snyder era vs. New ownership with Jayden Daniels
+          Ticket price evolution: 4-13 season (2023) vs. 12-5 playoff season (2024) vs. 2025 projections
         </CardDescription>
       </CardHeader>
       <CardContent>
@@ -53,28 +58,36 @@ export const TicketPriceComparison = () => {
             <Tooltip 
               formatter={(value, name) => [
                 `$${value}`, 
-                name === 'snyder2023' ? '2023 Season (Snyder)' : '2024 Season (New Era)'
+                name === 'snyder2023' ? '2023 (4-13)' : 
+                name === 'newOwnership2024' ? '2024 (12-5)' : '2025 Projection'
               ]}
             />
             <Legend />
             <Bar 
               dataKey="snyder2023" 
               fill="hsl(var(--muted-foreground))" 
-              name="2023 Season (Snyder)"
+              name="2023 (4-13)"
               radius={[2, 2, 0, 0]}
             />
             <Bar 
               dataKey="newOwnership2024" 
               fill="hsl(var(--primary))" 
-              name="2024 Season (New Era)"
+              name="2024 (12-5)"
+              radius={[2, 2, 0, 0]}
+            />
+            <Bar 
+              dataKey="projected2025" 
+              fill="hsl(var(--secondary))" 
+              name="2025 Projection"
               radius={[2, 2, 0, 0]}
             />
           </BarChart>
         </ResponsiveContainer>
         <div className="mt-4 p-4 bg-accent rounded-lg">
           <p className="text-sm text-accent-foreground">
-            <strong>Key Insight:</strong> Average ticket price increase of 32% across all categories, 
-            with premium sections seeing the highest demand and price growth.
+            <strong>Performance Impact:</strong> Playoff run drove 49% average price increase. 
+            Premium suites saw 77% jump ($450→$795) as corporate demand surged. 
+            2025 projections show 5-8% moderation despite 9-10 win expectations.
           </p>
         </div>
       </CardContent>

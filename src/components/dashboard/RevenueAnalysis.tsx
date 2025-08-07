@@ -2,12 +2,12 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from "recharts";
 
 const revenueData = [
-  { month: "Aug", ticketSales: 12.5, merchandise: 3.2, sponsorships: 8.1, total: 23.8 },
-  { month: "Sep", ticketSales: 15.8, merchandise: 4.1, sponsorships: 9.2, total: 29.1 },
-  { month: "Oct", ticketSales: 18.2, merchandise: 5.3, sponsorships: 10.5, total: 34.0 },
-  { month: "Nov", ticketSales: 16.9, merchandise: 4.8, sponsorships: 9.8, total: 31.5 },
-  { month: "Dec", ticketSales: 19.4, merchandise: 6.2, sponsorships: 11.1, total: 36.7 },
-  { month: "Jan", ticketSales: 14.2, merchandise: 4.5, sponsorships: 8.9, total: 27.6 },
+  { month: "Aug", ticketSales: 12.5, merchandise: 3.2, sponsorships: 8.1, total: 23.8, year: "2024" },
+  { month: "Sep", ticketSales: 18.3, merchandise: 5.4, sponsorships: 11.2, total: 34.9, year: "2024" },
+  { month: "Oct", ticketSales: 22.1, merchandise: 7.8, sponsorships: 13.5, total: 43.4, year: "2024" },
+  { month: "Nov", ticketSales: 24.7, merchandise: 8.9, sponsorships: 14.8, total: 48.4, year: "2024" },
+  { month: "Dec", ticketSales: 28.2, merchandise: 12.1, sponsorships: 16.2, total: 56.5, year: "2024" },
+  { month: "Jan*", ticketSales: 35.4, merchandise: 15.8, sponsorships: 18.9, total: 70.1, year: "2024 Playoffs" },
 ];
 
 export const RevenueAnalysis = () => {
@@ -58,19 +58,19 @@ export const RevenueAnalysis = () => {
         </ResponsiveContainer>
         <div className="mt-4 grid grid-cols-3 gap-4">
           <div className="text-center p-3 bg-primary/10 rounded-lg">
-            <p className="text-sm text-primary font-medium">Ticket Sales Peak</p>
-            <p className="text-lg font-bold text-primary">$19.4M</p>
-            <p className="text-xs text-muted-foreground">December 2024</p>
+            <p className="text-sm text-primary font-medium">Playoff Revenue Spike</p>
+            <p className="text-lg font-bold text-primary">$35.4M</p>
+            <p className="text-xs text-muted-foreground">January playoffs (tickets)</p>
           </div>
           <div className="text-center p-3 bg-secondary/10 rounded-lg">
-            <p className="text-sm text-secondary-foreground font-medium">Merchandise Growth</p>
-            <p className="text-lg font-bold text-secondary-foreground">+94%</p>
-            <p className="text-xs text-muted-foreground">vs previous year</p>
+            <p className="text-sm text-secondary-foreground font-medium">Merchandise Surge</p>
+            <p className="text-lg font-bold text-secondary-foreground">+278%</p>
+            <p className="text-xs text-muted-foreground">Playoff merchandise vs 2023</p>
           </div>
           <div className="text-center p-3 bg-success/10 rounded-lg">
-            <p className="text-sm text-success font-medium">Sponsorship Value</p>
-            <p className="text-lg font-bold text-success">$57.6M</p>
-            <p className="text-xs text-muted-foreground">Total season</p>
+            <p className="text-sm text-success font-medium">Total Season Revenue</p>
+            <p className="text-lg font-bold text-success">$277.5M</p>
+            <p className="text-xs text-muted-foreground">Including playoff run</p>
           </div>
         </div>
       </CardContent>

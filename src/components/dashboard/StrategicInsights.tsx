@@ -8,37 +8,37 @@ const insights = [
     category: "Revenue Growth",
     status: "positive",
     icon: TrendingUp,
-    title: "Strong Financial Performance",
-    description: "28% revenue increase driven by premium ticket demand and new sponsorship deals",
-    confidence: 92,
-    recommendation: "Continue investing in fan experience and stadium amenities"
+    title: "Exceptional Financial Turnaround",
+    description: "372% revenue increase from 4-13 season to playoff run - unprecedented in NFL",
+    confidence: 96,
+    recommendation: "Capitalize on momentum with premium season ticket packages and corporate suites"
   },
   {
-    category: "Brand Positioning",
+    category: "Performance Correlation",
     status: "positive", 
     icon: CheckCircle,
-    title: "Successful Rebranding",
-    description: "New ownership has successfully distanced from previous negative associations",
-    confidence: 88,
-    recommendation: "Leverage positive momentum for long-term partnerships"
+    title: "Win-Revenue Direct Link Confirmed",
+    description: "12-5 record translated to $150M+ revenue jump, validating performance-pricing model",
+    confidence: 94,
+    recommendation: "Implement tiered pricing based on expected win totals and playoff probability"
   },
   {
-    category: "Market Risk",
+    category: "2025 Risk Assessment",
     status: "warning",
     icon: AlertCircle,
-    title: "Sustainability Concerns",
-    description: "Current growth may be hype-driven; need sustainable competitive performance",
-    confidence: 75,
-    recommendation: "Develop 3-year retention strategy independent of rookie QB performance"
+    title: "Regression Probability High",
+    description: "9-10 win projection suggests 15-20% revenue decline risk if expectations aren't managed",
+    confidence: 82,
+    recommendation: "Lock in multi-year commitments now while brand equity is at peak"
   },
   {
-    category: "Future Outlook",
-    status: "neutral",
+    category: "Market Position",
+    status: "positive",
     icon: Target,
-    title: "Growth Potential",
-    description: "Strong foundation for continued expansion with proper strategic planning",
-    confidence: 85,
-    recommendation: "Focus on season ticket renewals and corporate partnerships"
+    title: "Premium Brand Established",
+    description: "Successfully transitioned from discount franchise to premium product in one season",
+    confidence: 89,
+    recommendation: "Maintain premium positioning even through potential on-field regression"
   }
 ];
 
@@ -106,10 +106,10 @@ export const StrategicInsights = () => {
         <div className="mt-6 p-4 bg-gradient-to-r from-primary/10 to-secondary/10 rounded-lg border border-primary/20">
           <h4 className="font-semibold text-foreground mb-2">Executive Summary</h4>
           <p className="text-sm text-foreground/80">
-            The Washington Commanders have successfully leveraged new ownership and Jayden Daniels' impact 
-            to achieve significant revenue growth. While current metrics are positive, long-term sustainability 
-            requires strategic focus on fan retention, competitive performance, and brand consistency beyond 
-            the initial excitement period.
+            The 4-13 to 12-5 transformation generated the largest single-season revenue increase in franchise history. 
+            However, with expert projections of 9-10 wins in 2025, the organization must now prove that new ownership 
+            and culture changes can sustain premium pricing and fan engagement beyond Daniels' rookie magic. 
+            The next 12 months will determine if this was a sustainable turnaround or a temporary spike.
           </p>
         </div>
       </CardContent>

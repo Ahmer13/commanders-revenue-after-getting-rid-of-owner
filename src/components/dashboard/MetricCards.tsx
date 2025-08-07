@@ -3,36 +3,36 @@ import { TrendingUp, TrendingDown, DollarSign, Users, Ticket, Trophy } from "luc
 
 const metrics = [
   {
+    title: "Season Record Improvement",
+    value: "12-5",
+    change: "+200%",
+    trend: "up",
+    icon: Trophy,
+    description: "vs 2023 season (4-13)"
+  },
+  {
     title: "Average Ticket Price",
-    value: "$147",
-    change: "+32%",
+    value: "$165",
+    change: "+49%",
     trend: "up",
     icon: Ticket,
     description: "vs 2023 season ($111)"
   },
   {
     title: "Season Revenue",
-    value: "$89.2M",
-    change: "+28%",
+    value: "$127.4M",
+    change: "+58%",
     trend: "up", 
     icon: DollarSign,
-    description: "Total stadium revenue"
+    description: "Playoff run impact"
   },
   {
     title: "Attendance Rate",
-    value: "97.8%",
-    change: "+18%",
+    value: "99.2%",
+    change: "+31%",
     trend: "up",
     icon: Users,
-    description: "Stadium capacity filled"
-  },
-  {
-    title: "Fan Engagement Score",
-    value: "8.4/10",
-    change: "+45%",
-    trend: "up",
-    icon: Trophy,
-    description: "Social media & engagement"
+    description: "Playoff atmosphere"
   }
 ];
 
