@@ -61,7 +61,7 @@ With the arrival of **Jayden Daniels** and a new ownership group, this project e
 ---
 
 ## 🔗 Live Demo
-[View the Interactive Power BI Dashboard](your-live-demo-link)
+[View the Interactive Power BI Dashboard](https://lovable.dev/projects/f99fe942-1cc6-4dcb-8bd3-66c646bde805)
 
 ---
 
