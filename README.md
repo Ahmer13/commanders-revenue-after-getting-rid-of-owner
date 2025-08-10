@@ -56,7 +56,7 @@ With the arrival of **Jayden Daniels** and a new ownership group, this project e
 ---
 
 ## 📷 Dashboard Preview
-![Dashboard Preview](link-to-your-screenshot.png)
+![Dashboard Preview](washingtoncommandersprev.png)
 
 ---
 
