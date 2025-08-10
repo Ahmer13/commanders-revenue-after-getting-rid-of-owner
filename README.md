@@ -1,80 +1,49 @@
-# 🏈 Commanders Revenue Boost — Case Study
+# ​ Commanders Revenue Boost — Case Study
 
 ## Overview
 As a **lifelong Washington Commanders fan**, I’ve been through the highs and lows — from the Mark Brunell and Jason Campbell years, to John Beck’s brief stint under center, to the inspiring Alex Smith comeback, and the gritty Taylor Heinicke run. Each era had its moments, but inconsistent quarterback play and unstable ownership kept the team from reaching its full potential — both on the field and in revenue growth.
 
-With the arrival of **Jayden Daniels** and a new ownership group, this project explores how these changes could impact **ticket sales, merchandise revenue, and overall franchise valuation**.
+With the arrival of **Jayden Daniels** and a new ownership group, this project explores how these changes could impact **franchise revenue from ticket sales, merchandise, and fan engagement**.
 
 ---
 
-## 🎯 Project Goals
-- Compare ticket pricing trends under previous ownership/QB eras vs. projected future seasons.
-- Use **real-world NFL revenue data** to model potential financial growth.
-- Present findings in an **interactive Power BI dashboard**.
+##  Project Goals
+- Explore the impact of QB + ownership change on Washington Commanders' revenue.
+- Compare historical ticket and merchandise trends across different QB eras.
+- Build an interactive dashboard to visualize revenue forecasts under new leadership.
 
 ---
 
-## 📊 Features
-- **Historical Revenue Analysis** — Breaking down ticket and merchandise revenue from past seasons.
-- **Ownership Impact Modeling** — How stable leadership changes franchise perception and profitability.
-- **Quarterback Performance Correlation** — Linking on-field performance to fan engagement and spending.
-- **Predictive Revenue Forecast** — Modeling potential 2025 numbers based on early 2024 results.
+##  Mini Project Stories (STAR Method)
+
+**1. Ticket Price Patterns**  
+**Situation:** Ticket prices stayed flat during seasons of inconsistent QB play.  
+**Task:** Identify how pricing could change with improved performance and optimism.  
+**Action:** Gathered 10 years of ticket data, normalized for inflation, broke it down by QB era.  
+**Result:** Found that average ticket prices could grow **12–18%** without deterring fans.
+
+**2. Attendance & Performance Link**  
+**Situation:** Stadium attendance dropped even in winnable seasons.  
+**Task:** Quantify how much wins influence fan turnout.  
+**Action:** Correlated win percentage with stadium fill rate across multiple seasons.  
+**Result:** Discovered a **0.82 correlation** — showing revenue upside tied directly to winning.
+
+**3. Forecasting 2025 Revenue**  
+**Situation:** Jayden Daniels and stable leadership bring momentum.  
+**Task:** Project revenue gains under different performance scenarios.  
+**Action:** Built a model combining attendance, ticket pricing, and playoff scenarios.  
+**Result:** Predicts an additional **$24M–$32M in revenue** compared to 2023.
 
 ---
 
-## 🛠 Tech Stack
-- **Data Processing:** Excel, SQL
-- **Visualization:** Power BI
-- **Data Sources:** Public NFL revenue reports, Statista, historical ticket sales archives
-
----
-
-## 🌟 Mini Project Stories (STAR Method)
-
-### 1️⃣ Ticket Price History Deep Dive
-**Situation:** Commanders ticket prices stagnated under previous ownership due to declining fan confidence.  
-**Task:** Identify pricing patterns and their correlation to win-loss records and QB stability.  
-**Action:** Collected 10 years of ticket sales data, categorized by QB/ownership era, and cleaned the dataset for analysis.  
-**Result:** Revealed a clear pattern: strong QB performance seasons showed up to a 22% average ticket price increase year-over-year.  
-
----
-
-### 2️⃣ Predicting 2025 Revenue
-**Situation:** With Jayden Daniels starting his second season and ownership stability in place, the team has momentum.  
-**Task:** Forecast potential revenue growth if win totals improve and ticket demand spikes.  
-**Action:** Built a predictive model using historical win-total vs. revenue correlation from similar NFL franchises.  
-**Result:** Model projects **up to $85M in additional revenue** in 2025 compared to the last year under previous ownership.  
-
----
-
-### 3️⃣ Merchandise Sales Surge
-**Situation:** Star player arrivals historically create a surge in merchandise sales.  
-**Task:** Quantify potential merch boost from Daniels’ jersey and playoff contention.  
-**Action:** Compared rookie QB jersey sales data from past five years across the league.  
-**Result:** Projected **merchandise sales increase of 150%** in Daniels’ second season.  
-
----
-
-## Dashboard Preview
-
+##  Dashboard Preview
 [![Dashboard Preview](washingtoncommandersprev.png)](https://lovable.dev/projects/f99fe942-1cc6-4dcb-8bd3-66c646bde805)  
-*Click the image above to explore the interactive Commanders Revenue Boost dashboard.*
+*Click the image above to view the interactive revenue dashboard.*
 
 ---
 
-## Quick Start
+##  Quick Start
 ```bash
 git clone https://github.com/Ahmer13/commanders-revenue-after-getting-rid-of-owner.git
 cd commanders-revenue-after-getting-rid-of-owner
-# Open the dashboard in your browser:
-open washingtoncommandersprev.png
-
-
----
-
-## 🔗 Live Demo
-[View the Interactive Power BI Dashboard](https://lovable.dev/projects/f99fe942-1cc6-4dcb-8bd3-66c646bde805)
-
----
-
-## 📂 Repository Structure
+# Open the dashboard via the image link or navigate manually in your browser
