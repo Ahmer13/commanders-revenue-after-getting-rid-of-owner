@@ -33,7 +33,7 @@ export const TeamPerformance = () => {
                     name === 'wins' ? 'Season Wins' : 'Revenue'
                   ]}
                 />
-                <ReferenceLine x="2024" stroke="hsl(var(--primary))" strokeDasharray="2 2" />
+                <ReferenceLine x="2024" stroke="hsl(var(--primary))" strokeDasharray="2 2" yAxisId="wins" />
                 <Line 
                   yAxisId="wins"
                   type="monotone" 
