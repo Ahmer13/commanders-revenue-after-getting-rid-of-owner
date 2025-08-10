@@ -56,8 +56,8 @@ With the arrival of **Jayden Daniels** and a new ownership group, this project e
 ---
 
 ## 📷 Dashboard Preview
-![Dashboard Preview](washingtoncommandersprev.png)
-
+![Dashboard Preview](washingtoncommandersprev.png)(https://lovable.dev/projects/f99fe942-1cc6-4dcb-8bd3-66c646bde805))
+*(Click the image to view the live interactive dashboard)*
 ---
 
 ## 🔗 Live Demo
