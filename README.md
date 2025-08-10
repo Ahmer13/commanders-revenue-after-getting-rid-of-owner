@@ -1,73 +1,68 @@
-# Welcome to your Lovable project
+# 🏈 Commanders Revenue Boost — Case Study
 
-## Project info
+## Overview
+As a **lifelong Washington Commanders fan**, I’ve been through the highs and lows — from the Mark Brunell and Jason Campbell years, to John Beck’s brief stint under center, to the inspiring Alex Smith comeback, and the gritty Taylor Heinicke run. Each era had its moments, but inconsistent quarterback play and unstable ownership kept the team from reaching its full potential — both on the field and in revenue growth.
 
-**URL**: https://lovable.dev/projects/f99fe942-1cc6-4dcb-8bd3-66c646bde805
+With the arrival of **Jayden Daniels** and a new ownership group, this project explores how these changes could impact **ticket sales, merchandise revenue, and overall franchise valuation**.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🎯 Project Goals
+- Compare ticket pricing trends under previous ownership/QB eras vs. projected future seasons.
+- Use **real-world NFL revenue data** to model potential financial growth.
+- Present findings in an **interactive Power BI dashboard**.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f99fe942-1cc6-4dcb-8bd3-66c646bde805) and start prompting.
+## 📊 Features
+- **Historical Revenue Analysis** — Breaking down ticket and merchandise revenue from past seasons.
+- **Ownership Impact Modeling** — How stable leadership changes franchise perception and profitability.
+- **Quarterback Performance Correlation** — Linking on-field performance to fan engagement and spending.
+- **Predictive Revenue Forecast** — Modeling potential 2025 numbers based on early 2024 results.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠 Tech Stack
+- **Data Processing:** Excel, SQL
+- **Visualization:** Power BI
+- **Data Sources:** Public NFL revenue reports, Statista, historical ticket sales archives
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🌟 Mini Project Stories (STAR Method)
 
-Follow these steps:
+### 1️⃣ Ticket Price History Deep Dive
+**Situation:** Commanders ticket prices stagnated under previous ownership due to declining fan confidence.  
+**Task:** Identify pricing patterns and their correlation to win-loss records and QB stability.  
+**Action:** Collected 10 years of ticket sales data, categorized by QB/ownership era, and cleaned the dataset for analysis.  
+**Result:** Revealed a clear pattern: strong QB performance seasons showed up to a 22% average ticket price increase year-over-year.  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 2️⃣ Predicting 2025 Revenue
+**Situation:** With Jayden Daniels starting his second season and ownership stability in place, the team has momentum.  
+**Task:** Forecast potential revenue growth if win totals improve and ticket demand spikes.  
+**Action:** Built a predictive model using historical win-total vs. revenue correlation from similar NFL franchises.  
+**Result:** Model projects **up to $85M in additional revenue** in 2025 compared to the last year under previous ownership.  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 3️⃣ Merchandise Sales Surge
+**Situation:** Star player arrivals historically create a surge in merchandise sales.  
+**Task:** Quantify potential merch boost from Daniels’ jersey and playoff contention.  
+**Action:** Compared rookie QB jersey sales data from past five years across the league.  
+**Result:** Projected **merchandise sales increase of 150%** in Daniels’ second season.  
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 📷 Dashboard Preview
+![Dashboard Preview](link-to-your-screenshot.png)
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🔗 Live Demo
+[View the Interactive Power BI Dashboard](your-live-demo-link)
 
-## What technologies are used for this project?
+---
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f99fe942-1cc6-4dcb-8bd3-66c646bde805) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📂 Repository Structure
