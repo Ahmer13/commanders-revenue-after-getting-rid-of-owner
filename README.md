@@ -55,10 +55,20 @@ With the arrival of **Jayden Daniels** and a new ownership group, this project e
 
 ---
 
-## 📷 Dashboard Preview
+## Dashboard Preview
 
-[![Dashboard Preview](./washingtoncommandersprev.png)](https://lovable.dev/projects/f99fe942-1cc6-4dcb-8bd3-66c646bde805)
-*(Click the image to view the live interactive dashboard)*
+[![Dashboard Preview](washingtoncommandersprev.png)](https://lovable.dev/projects/f99fe942-1cc6-4dcb-8bd3-66c646bde805)  
+*Click the image above to explore the interactive Commanders Revenue Boost dashboard.*
+
+---
+
+## Quick Start
+```bash
+git clone https://github.com/Ahmer13/commanders-revenue-after-getting-rid-of-owner.git
+cd commanders-revenue-after-getting-rid-of-owner
+# Open the dashboard in your browser:
+open washingtoncommandersprev.png
+
 
 ---
 
